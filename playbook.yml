@@ -1,0 +1,6 @@
+---
+- hosts: webui
+  become: yes
+  roles:
+    - webui  
+
